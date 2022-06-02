@@ -1,4 +1,3 @@
-properties([parameters([string(defaultValue: 'qa', name: 'deploy')])])
 node {
     stage("First"){
        sh """
